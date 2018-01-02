@@ -1,0 +1,17 @@
+<form>
+  <div>
+    <label>Email</label>
+    <input type="text" #username>
+  </div>
+  <div>
+      <label>Name</label>
+      <input type="text" #name>
+    </div>
+  <div>
+    <label>Password</label>
+    <input type="password" #password>
+  </div>
+  <div>
+    <input type="button" value="Register" (click)="createUser(username.value,name.value,password.value)">
+  </div>
+</form>

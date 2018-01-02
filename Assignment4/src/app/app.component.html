@@ -1,0 +1,12 @@
+<h1>{{title}}</h1><h2>Workout Assignment</h2>
+<div class="navbar navbar-default">
+    <nav>
+        <a class="navbar-brand" [routerLink]="['/']">Home</a>
+
+        <a class="navbar-brand" *ngIf="isLoggedIn()" (click)="logOut()">Log Out</a>  
+        <a class="navbar-brand" *ngIf="!isLoggedIn()" [routerLink]="['/login']"> Log In</a>   
+        <a class="navbar-brand" *ngIf="!isLoggedIn()"[routerLink]="['/register']"> Register </a>        
+    </nav>
+</div>
+
+<router-outlet></router-outlet>

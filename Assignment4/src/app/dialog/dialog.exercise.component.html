@@ -1,0 +1,38 @@
+<h1 mat-dialog-title>Add new Exercise</h1>
+<fieldset>
+        <div class="form-group">
+            <mat-form-field>
+                <mat-label>Exercise Name</mat-label> 
+                <input matInput [(ngModel)]="data.name">
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field>
+                <mat-label>Exercise description</mat-label>
+                <input  matInput [(ngModel)]="data.description">
+                    <!-- <input class="form-control" matInput [(ngModel)]="data.description" placeholder="description of exericse" name="description" > -->
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field>
+                <mat-label>Reps</mat-label>
+                <input matInput [(ngModel)]="data.reps" type="number" >
+                            <!-- <input class="form-control" matInput [(ngModel)]="data.reps" placeholder="Amount of reps" type="number" > -->
+            </mat-form-field>
+        </div>
+        <div class="form-group">
+            <mat-form-field>
+                <mat-label>Sets</mat-label>
+                <input matInput [(ngModel)]="data.sets" type="number" >
+                <!-- <input class="form-control" matInput [(ngModel)]="data.sets" placeholder="Amount of Sets" type="number" > -->
+            </mat-form-field>
+        </div> 
+    
+    </fieldset>
+
+<div mat-dialog-actions>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-button [mat-dialog-close]="data" class="btn btn-primary" >Add</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button mat-button  mat-dialog-close (click)="onNoClick()" class="btn btn-default">Cancel</button>
+</div>
