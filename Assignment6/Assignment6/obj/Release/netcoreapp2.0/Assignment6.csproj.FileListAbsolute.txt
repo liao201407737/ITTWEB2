@@ -1,0 +1,12 @@
+D:\ITTWEB2\Assignment6\Assignment6\bin\Release\netcoreapp2.0\Assignment6.deps.json
+D:\ITTWEB2\Assignment6\Assignment6\bin\Release\netcoreapp2.0\Assignment6.runtimeconfig.json
+D:\ITTWEB2\Assignment6\Assignment6\bin\Release\netcoreapp2.0\Assignment6.runtimeconfig.dev.json
+D:\ITTWEB2\Assignment6\Assignment6\bin\Release\netcoreapp2.0\Assignment6.dll
+D:\ITTWEB2\Assignment6\Assignment6\bin\Release\netcoreapp2.0\Assignment6.pdb
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.csprojResolveAssemblyReference.cache
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.csproj.CoreCompileInputs.cache
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.AssemblyInfoInputs.cache
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.AssemblyInfo.cs
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.dll
+D:\ITTWEB2\Assignment6\Assignment6\obj\Release\netcoreapp2.0\Assignment6.pdb

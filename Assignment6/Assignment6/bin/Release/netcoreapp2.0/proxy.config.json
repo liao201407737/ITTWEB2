@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": {
+      "host": "https://localhost:51468",
+      "protocol": "https:",
+      "port": 443
+    },
+    "secure": false,
+    "changeOrigin": true
+  }
+}

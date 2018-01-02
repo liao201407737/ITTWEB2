@@ -1,0 +1,23 @@
+<div class="section">
+    <div id="one">
+            <div *ngIf="isLoggedIn()">
+            <input #workoutName placeholder="Add new Workout" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-default" (click)="add(workoutName.value); workoutName.value=''">
+                    Add
+                    </button>
+            </div>
+        <table class="table table-striped table-hover">
+            
+            <th>
+            </th>
+            <br>
+            <tr *ngFor="let workout of workouts" 
+            [class.selected]="workout === selectedWorkout"
+            (click)="onSelect(workout)">
+                <td>{{ workout.name }}</td>
+            </tr>
+        </table>
+    </div>
+    <div id="two">
+            <workout-exercise [workout]="selectedWorkout"></workout-exercise>
+    </div>            
+</div>

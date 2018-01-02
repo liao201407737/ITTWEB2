@@ -13,8 +13,9 @@ namespace Assignment6.Models
             : base(options)
         {
         }
+      public DbSet<ApplicationUser> ApplicationUser { get; set; }
 
-        public DbSet<Assignment6.DataModels.Workout> Workout { get; set; }
+    public DbSet<Assignment6.DataModels.Workout> Workout { get; set; }
 
         public DbSet<Assignment6.DataModels.Exercise> Exercise { get; set; }
 

@@ -9,3 +9,4 @@ D:\ITTWEB2\Assignment6\Assignment6\obj\Debug\netcoreapp2.0\Assignment6.AssemblyI
 D:\ITTWEB2\Assignment6\Assignment6\obj\Debug\netcoreapp2.0\Assignment6.dll
 D:\ITTWEB2\Assignment6\Assignment6\obj\Debug\netcoreapp2.0\Assignment6.pdb
 D:\ITTWEB2\Assignment6\Assignment6\obj\Debug\netcoreapp2.0\Assignment6.csprojResolveAssemblyReference.cache
+D:\ITTWEB2\Assignment6\Assignment6\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
